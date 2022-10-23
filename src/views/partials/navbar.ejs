@@ -1,0 +1,76 @@
+<!--  
+	search_box: contenedor de 1 tag-input y 1 tag-a
+-->
+<div class="search_box">
+	<!--  
+		tag-input: en esta definimos el buscador
+	-->
+	<input type="text" name="search" placeholder="Buscar" />
+
+	<!--  
+		tag-a: contiene 1 tag-svg
+	-->
+	<a href="#" class="search_btn">
+		<!--  
+			tag-svg: en esta definimos el icono del buscador
+		-->
+		<svg viewBox="0 0 24 24">
+			<path
+				d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
+			></path>
+		</svg>
+	</a>
+</div>
+
+<!--  
+	nav_menu: en esta definimos los items del menu de navegacion
+-->
+<ul class="nav_menu">
+	<!--  
+		:li_dropdown: contenedor de 1tag-a y 1 tag-ul, la clase
+		:li_dropdown se implementa en javascript
+	-->
+	<li class="li_dropdown">
+		<a href="/servidor-tsc"> 01. Servidor tsc</a>
+	</li>
+
+	<li class="li_dropdown">
+		<a href="/tipos-datos-tsc"> 02. Tipado Primitivo</a>
+	</li>
+
+	<li class="li_dropdown">
+		<a href="/objetos-tsc"> 03. Objetos</a>
+	</li>
+
+	<li class="li_dropdown">
+		<a href="/arreglos-tsc"> 04. Arreglos</a>
+	</li>
+
+	<!-- 
+	<li class="li_dropdown">
+		<a href="#" data-toggle="dropdown">
+			02. Funciones -->
+
+	<!--          
+				tag-svg: en este definimos el icono del del item
+			-->
+	<!-- <svg viewBox="0 0 24 24">
+				<path
+					d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"
+				></path>
+			</svg>
+		</a> -->
+
+	<!--  
+			:dropdown_menu: en esta definimos el menu de 
+			:navegacion interno
+		-->
+	<!-- <ul class="dropdown_menu">
+			<li><a href="/declaradas-function">a. Declaradas</a></li>
+			<li><a href="/expresadas-function">b. Expresadas</a></li>
+			<li><a href="/callback-function">c. Callback</a></li>
+			<li><a href="/events-function">d. Events</a></li>
+			<li><a href="/rest-operator-function">e. Rest Operator</a></li>
+		</ul>
+	</li> -->
+</ul>
